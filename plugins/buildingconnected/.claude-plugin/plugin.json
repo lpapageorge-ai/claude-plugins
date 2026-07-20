@@ -1,0 +1,14 @@
+{
+  "name": "buildingconnected",
+  "version": "0.2.0",
+  "description": "Access and enter data in BuildingConnected by Autodesk from Claude — projects, bid packages, invites, bids, estimating/cost tracking, and any API v2 endpoint, via a one-time Autodesk sign-in.",
+  "author": {
+    "name": "Turnkey Construct"
+  },
+  "mcpServers": {
+    "buildingconnected": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/buildingconnected-server.mjs"]
+    }
+  }
+}

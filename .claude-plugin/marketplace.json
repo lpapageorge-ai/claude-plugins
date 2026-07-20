@@ -1,0 +1,20 @@
+{
+  "name": "turnkey-construct",
+  "owner": {
+    "name": "Turnkey Construct",
+    "email": "lpapageorge@turnkeyconstruct.com"
+  },
+  "metadata": {
+    "description": "Turnkey Construct internal Claude plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "buildingconnected",
+      "source": "./plugins/buildingconnected",
+      "displayName": "BuildingConnected",
+      "description": "Access and enter data in BuildingConnected by Autodesk from Claude — projects, bid packages, invites, bids, estimating/cost tracking, and any API v2 endpoint, via a one-time Autodesk sign-in.",
+      "version": "0.2.0"
+    }
+  ]
+}
