@@ -1,0 +1,14 @@
+{
+  "name": "procore",
+  "version": "0.3.0",
+  "description": "Access and enter data in Procore from Claude — projects, RFIs, submittals, directory, budgets, and any REST endpoint via a service-account (client credentials) connection.",
+  "author": {
+    "name": "Turnkey Construct"
+  },
+  "mcpServers": {
+    "procore": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/procore-server.mjs"]
+    }
+  }
+}

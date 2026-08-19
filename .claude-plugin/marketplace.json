@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Turnkey Construct internal Claude plugins",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -15,6 +15,13 @@
       "displayName": "BuildingConnected",
       "description": "Access and enter data in BuildingConnected by Autodesk from Claude — projects, bid packages, invites, bids, estimating/cost tracking, and any API v2 endpoint, via a one-time Autodesk sign-in.",
       "version": "0.2.0"
+    },
+    {
+      "name": "procore",
+      "source": "./plugins/procore",
+      "displayName": "Procore",
+      "description": "Access and enter data in Procore from Claude — projects, RFIs, submittals, directory, budgets, and any REST endpoint, via a service-account (client credentials) connection.",
+      "version": "0.3.0"
     }
   ]
 }

@@ -1,3 +1,4 @@
 # Never commit real credentials or OS junk
 **/buildingconnected-credentials.json
 .DS_Store
+**/procore-credentials.json
